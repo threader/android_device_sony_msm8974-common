@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.mokee.hardware;
+package org.cyanogenmod.hardware;
 
 import java.io.File;
 import java.util.Scanner;
-import org.mokee.internal.util.FileUtils;
+import org.cyanogenmod.internal.util.FileUtils;
 
 public class DisplayColorCalibration {
     private static final String COLOR_FILE = "/sys/class/graphics/fb0/rgb";
