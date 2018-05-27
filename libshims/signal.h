@@ -46,7 +46,7 @@
 /* For 32-bit, we're stuck with the definitions we already shipped,
  * even though they contain a sigset_t that's too small. */
 #  include <linux/signal.h>
-#endif
+#endifA file with the same name already exists. Please choose a different name and try again.
 
 #include <sys/ucontext.h>
 #define __BIONIC_HAVE_UCONTEXT_T
