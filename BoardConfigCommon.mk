@@ -25,7 +25,7 @@ TARGET_NO_RADIOIMAGE := true
 
 # Kernel properties
 ifeq (,$(filter $(TARGET_KERNEL_SOURCE),))
-  TARGET_KERNEL_SOURCE := kernel/sony/msm8974
+  TARGET_KERNEL_SOURCE := kernel/sony/kernel
 endif
 
 # use CAF variants
